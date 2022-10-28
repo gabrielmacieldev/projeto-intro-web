@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Animais</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" defer></script>
+
+</head>
+
+<body>
+    <header>🦁🐺🐋 Lista de Animais 🐋🐺🦁</header>
+    <main id="container">
+
+        <section class="pesquisar">
+
+            <input id="searchbar" type="text" placeholder="🔍write here the animal">
+            <button type="submit" onclick="todosAnimais()" class="button">SEARCH</button>
+
+        </section>
+
+        <section class="lista-animais">
+            <li class="animalGeral">
+                <article class="estilizarAnimais">
+                    <ul>
+                        <img src="./assets/lobo guara circulo.png" width="200px" alt="foto leão">
+                        <h2><i>LOBO-GUARÁ</i></h2>
+
+                        <li>Animal: <a href="https://www.infoescola.com/animais/lobo-guara/"
+                                target="_blank">Lobo-Guará</a>
+                        </li>
+                        <li>Expectativa de vida: 15 anos em média</li>
+                        <li>Está em extinção: true</li>
+                        <li>Alimentação: frutos, roedores, aves, insetos, répteis</li>
+                    </ul>
+                </article>
+            </li>
+
+            <li class="animalGeral">
+                <article class="estilizarAnimais">
+                    <ul>
+                        <img src="./assets/leao circulo.png" width="200px" alt="foto leão">
+                        <h2><i>LEÃO</i></h2>
+
+                        <li>Animal: <a href="https://pt.wikipedia.org/wiki/Le%C3%A3o"
+                                target="_blank">Leão</a>
+                        </li>
+                        <li>Expectativa de vida: 20 anos em média</li>
+                        <li>Está em extinção: false</li>
+                        <li>Alimentação: zebra, gnus, girafas, antílopes</li>
+                    </ul>
+                </article>
+            </li>
+            <li class="animalGeral">
+                <article class="estilizarAnimais">
+                    <ul>
+                        
+                        <img src="./assets/baleia-azul circulo.png" width="200px" alt="foto leão">
+                        <h2><i>BALEIA-AZUL</i></h2>
+
+                        <li>Animal: <a href="https://www.biologianet.com/biodiversidade/baleia-azul.htm"
+                                target="_blank">Baleia-Azul</a>
+                        </li>
+                        <li>Expectativa de vida: 90 anos em média</li>
+                        <li>Está em extinção: true</li>
+                        <li>Alimentação: Crustáceos, peixes, moluscos, zooplâncton</li>
+                    </ul>
+                </article>
+            </li>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Maciel;</p>
+        <a href="https://github.com/gabrieljosephmaciel" target="_blank">
+            <img class="icons" src="./assets/icons8-github-75.png" alt="github" /></a>
+
+        <a href="https://www.linkedin.com/in/gabriel-maciel-74a1391a2/" target="_blank">
+            <img class="icons" src="./assets/icons8-linkedin-75.png" alt="linkedin" /></a>
+
+        <a href="https://www.instagram.com/gabrielmacieloff/" target="_blank">
+            <img class="icons" src="./assets/icons8-instagram-75.png" alt="instagram" /></a>
+    </footer>
+</body>
+
+</html>
